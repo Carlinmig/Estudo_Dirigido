@@ -1,0 +1,18 @@
+# Credenciais
+.env
+.env.*
+!.env.example
+*.key
+
+# Ambiente Python
+.venv/
+__pycache__/
+.pytest_cache/
+.ipynb_checkpoints/
+*.pyc
+
+# Resultados locais
+results/
+
+# Arquivos privados ou sensíveis
+data/private/
